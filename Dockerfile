@@ -1,2 +1,2 @@
-FROM ubuntu:latest
-RUN  apt-get update -y
+FROM nginx:latest
+EXPOSE 80
